@@ -1,0 +1,110 @@
+From c1d1e0119d25ef1db11751d8e98d7a27493cd301 Mon Sep 17 00:00:00 2001
+From: Matt Filetto <matt.filetto@gmail.com>
+Date: Mon, 3 Jun 2013 18:45:08 -0700
+Subject: [PATCH] Update adreno firmware
+
+Change-Id: I8fdacd4075a50267df1d6a628e750348aa18ea6f
+---
+ firmware/a225_pfp.fw   | Bin
+ firmware/a225_pm4.fw   | Bin 9220 -> 9220 bytes
+ firmware/a225p5_pm4.fw | Bin 9220 -> 9220 bytes
+ firmware/yamato_pfp.fw | Bin
+ firmware/yamato_pm4.fw | Bin
+ 5 files changed, 0 insertions(+), 0 deletions(-)
+ mode change 100644 => 100755 firmware/a225_pfp.fw
+ mode change 100644 => 100755 firmware/a225_pm4.fw
+ mode change 100644 => 100755 firmware/a225p5_pm4.fw
+ mode change 100644 => 100755 firmware/yamato_pfp.fw
+ mode change 100644 => 100755 firmware/yamato_pm4.fw
+
+diff --git a/firmware/a225_pfp.fw b/firmware/a225_pfp.fw
+old mode 100644
+new mode 100755
+diff --git a/firmware/a225_pm4.fw b/firmware/a225_pm4.fw
+old mode 100644
+new mode 100755
+index f676c1607130ef50f5dd4a6e0258437e54376bbf..9805e797aaeb2345d8b213e85ee728b06373db6c
+GIT binary patch
+delta 1184
+zcmZ`%U1$_n6h7zfj$Px-W@k6qaW?xi?M>n;rn?Gx(4lk@?IuXHO`iH7S)qc`x+oIX
+zABryqiY3T$5Cnf}Q3*Z>%96LWP97EnDJ2g+g#M71l)Qv05<x-Ib7zMowRmRv=Ir^-
+z`OcYp&!v$|BO0)ob?ppR>*rjCITtV2Uotd?un@w_bR;~9EqWX-GisW`G3^;v$=>t~
+zo3y;?3RW9aA00*}T9GGqODIKUCHS@NFjins<L2fIf|G3h3gdmfnb93jC9Gcra8k#;
+zW>9%5{3U#XG;WOBc?94en2w_|1FJxj9vcOts3<m!u{^yoYM7_f(MkNA7NQdO(OPr@
+z4>m@-w+TE?r%frUf}+_R&6(Z!J+(|}Oa}^Tz&fp&1^j^q;u3$PQO2uuGF~&TZOA!D
+zFXI;8rp<{m*6FK+g?H#gLgIaz;Yfp?Cu;bF#(MZn=+B;6oTusD3FEJh!qScvTJDv`
+z??FUQm*5YYN%m1O8PQfainOaMVPraoxRhU^BS~p2Z>ad2E6Vr}Jx><!6=~K4uF%(3
+zje9Ow5@WPxT}MgvtqO<iS$l}pUVjX*GrqljU=W7>FGit2tG493FjE!|(?Tj4)rW(|
+z#pDRMG?sF0w=+t~Q`N!<gSo!~E&4fS*(GLU94%&9pKZOH{lO6!WjV{<&#WKG=6x3U
+zzu8}67W-V>OP}@Cxcyw88e-AMcO3bKrqV8s)1!33__ou%;#FxiZQ&`>G80BEh?~U{
+zoTX!#GG3$y87p!@bzFyg^g`=tEM>x|U+XB8Jo2*rc!PR#Zgfv@p6cd#Eyi<$`}{rZ
+z%6tBIsGW?qeSh>=dsme&wpL(1P>uCCKCNIt(5HHGcjyE3G!#0i089F8XD~WsShN_?
+zX>rSzlu*kY4EKNavCs$T)_dxWj(Vxx)d3h3|Ct~>Pcu1-cl2Japtiv24SA^+t>z>?
+zZJ16OMH%TAncwC4<1FAL#MKS534Zb$d;!1tIRj#fqqnGA4h=Zi&ON|y^|b4numj3|
+g?iswri*QuBq3;CIPjWbNS3DGH&ZgTkOK)Y@zt|V<p8x;=
+
+delta 931
+zcmYjOOGs2<6#mb3u8)}OI1lG~=jr9n*l5Z);3P3&V^*WkV<9cYX;lnG3$sDQg&;<d
+z>G0{Ihl!wQv?v%{rDcm&A`}Eg5NPNsB3l&g?A)1Q@cftWp8K71zH|O_CweD(Wx-aJ
+zlZPmi8%Z#%C1^7Dn<3vu(F&TxfMt+Yu^V*agQbH#SxzxtlD8-Wt#XSNuwOY%nf!3o
+z72?4A>bKgeWU88$6x&6IF)iZx`I=FQlQioz<8$je=9Dv9h=kxr*c%(m$!7WjekxI=
+z)eNyw9SfkjHcKHa)(%nvWHYD>VOu|?@*}q665Yk3-H<X8x&lG$+if(0KXyYIFDaOs
+zQwTevG=ZxQgYIF3F^73aR+&ALlY;J4=_yV*Q#6Hf_80KTY0xq@n0X1=m8I7hbMdXA
+z)UVJ6*6RC}uVsaumOa$F4dru*vHFtY3pU(dq}|o>9<zklF{h%H*R&Ja!xUHS9;x`w
+z6)E}wS&h;!#MOS<!+kZ&J*mMUE5Z#=D2R6j9MD#@W>)*F3(@LmE-p-1MCd}FI03)M
+z;B9w%REmMT?pkZC)VST<D>^aeNobwrQIeZxwWL^t{ajkC;-g2^PII)5+4cbIvmM&l
+zZ|W82Sx(iG94#<`NFgft+a5}CH0DjvN!;>gx&6M^9HPc&Vw*2ZX)OB^bQ!z8sB*pB
+zJ-wNM->=e5#QpusP>Hv<C&eAi`BOBCZ+^8pYj!*o%Q%o-`MQ9Gtg~f><R%URt+*KM
+zkm7`g!6tlabZJXwJS0Su6fMqJz@5q^kRIiUV!F!MryKNw{rda^Jwo{zJw%w%&q_Un
+zH-;Op3`cCe@Q1c(P&mwcvPpa*M|??a6>@ZGnAyj$8Es)76?41!ZJuJ?x@ZwSh1}cp
+WjMsI|NL1XArm<kexmO7P4C{Yo49Zdf
+
+diff --git a/firmware/a225p5_pm4.fw b/firmware/a225p5_pm4.fw
+old mode 100644
+new mode 100755
+index bb52efb7907554f93c43d5d2070c264fe87338b0..57308a550f8eb2db8ff0a3a6706f3d30d1a245ed
+GIT binary patch
+delta 1261
+zcma)5T}V@L6hG&>YfE-Fx4GSYxOwertx&E$M8z-`$(%x2S=5WPh@u{XAi^R-Q+q0s
+zaqua$dN2usK1PuAH6e?r$d?g9f<-+@CG}8H583(O-KGXX=Z@db|D50doZtVeKh>X-
+zfz6$fk6~}-WSrqn9EUSs8M5_gl;ALR+V<iUJ+QSf%Cf*M@^kE^VCi$5qz|Qi*qc4P
+ztQ|QqW`7i%l0-#e33yR(7}Kymn^}HJVv^z*U>tJXk2tiPAk23IXrV*7No(d&+cv01
+zN-8^os}O*H;MO$3v@8vibW1T5L!{WSoXgW^rAu0c^ve;V9%nOdqzR{vn`qYAfo<6)
+z*C|QrK?=E6u=HuSfqkTSbmg2?LMR-eCXay^=!i$h3}qNE(j8Bidw3D2jeQ$k@p$nn
+zZTGgwBdl3A$JgkVSH~Na_qN~|MJl>*f(9!FxLd7n6ra*dUx)I(SZQX>9M$`E<*gNQ
+zR3_jZb^3LjqceV0X)NyIOl*!unE7!L^Aj_}^u=F?-zcIQ_=C2n9fg@#Mq?Z)qgho)
+zJ1GHCu`wWYjI&=u9|9L~9i0gZjD$vmo4C{WYJfV=>cVb<4Qi6Du$iVqIv*5<Rcxj4
+zu;1xuwL~@eQ_xOL;drpUC^L~0vn9m_?&dU1Q6{VgcXGCzqYY86&o=L3e`N|fxtto@
+z!&x&DjhR{CvAZV0*{|U^Zl(IlE^a?kDMUOo@iRwG(1A!C57L#0p>!9!r*nL$5f%IC
+zTckrdXT{wO2{=!?qAf@?6jkj5qT@WD^B1`yI~ld1<9e||B1bo?YVan>T3lUk?X|cS
+zy-XQg!TXb3O)jU8(wg0C-q^BO&RmqZz0MfDvitT+fi&c;lI0azVOfl|l2P;lW*mP8
+zCI8@`g{Ay^3o_|Om9HDDmt)om6kd_=CGij}?f=#PAN+~G`afOhFWUHd#Q-apF3Ogt
+z)0&ET8q^GNZK{1GxzH3%YdXH+(QYY;^iYpAJ~8#Z#=YPXC(b7E7hB{@kT*FSq~jdD
+zO)kB@wh9Z}X8spnVctDh14)y65{Do~`}BB8k2Fe`^tJZ8(qk#iY`UyR>8D=y8^~_`
+A5C8xG
+
+delta 984
+zcmZ`$T}V@582;Yl&QjQM?e}=xkK4`^Gi^!}sx>@_x}}VQ)kPPgcGrbhB_p(DWY`ZP
+z<0S&a!a@v!(1u_%Qv12Gpb=gc^Fpd!wTq%IYQ5)d3~zeRInQ~|`#j(CzTf$#qEk_x
+zQPiaP3y@4*3K6V^U@lc4NVh?t3g&Q7Hv}2XdMx-s7o?2mBZM)23z8`5w;+wX`fHF(
+zpWk;9h<IMTE@e2?RSku`D<y=(ESOH!jB_Ls46}suh78^mx+EDGqnnvLo{CtNr*TIJ
+z2nSV)0``*ux@r@g4EWbjkIS_^)yIe|7TJANd`<|XWQ;>!dek`1aT9?3Mjy>6m;-PH
+z!)95SE<35-3ph&kTR3l)VFot|@8YgGVVc{c>7!hSS+fNm;#Et8U!ZOA+V>*vSY&vD
+zyfp%=7_%l|6W>~AsoNRb61>Jgwz!b1IOSUMIB1uJPvwfisj$yDW0xV1D|S(6tNgB9
+za~`)z`DKstD=8i55nG{vF);u?@Uj>$tpq)OqlzA-IvI2rCd}hVojON>au3?1dvF+6
+zG>p|RNnz^r)5}<^`9SHXG9B~xonT!kIAl7J4u=T6Sa8^D4ZY=|+U-#`fTNC(G*B5+
+z*-%$=f{vMbhFJzT9inuK*!@&(cauLw(MWkyl$|9zQ94bmR&h6LETeCeUm@1(3_(8*
+zIuq1>+o=xmTSJ#C0T=O(D+K2->k0_tmF~kEbf|6-Cb7{S7pBW~Q@g@$;B|KdX7RmS
+ztiG*wEV4!X&Rd@~=)mx}VxVkbuAvo=dxBgLFzIQ+H(sl>rt*Hqnz%q|L=AKLH7s}o
+zG?v#V5+3!*uui!RCwxb6(ii;CbBOB(d@0*;SvGgP(vI^Z3^B91aSD#E<~=#bvYMuo
+w8>8w|G|Fv_4k&3AdaGAy-3!*jx;5<>%(EUGkwaAz+#`G-cTz7u{*n#<0NYIEL;wH)
+
+diff --git a/firmware/yamato_pfp.fw b/firmware/yamato_pfp.fw
+old mode 100644
+new mode 100755
+diff --git a/firmware/yamato_pm4.fw b/firmware/yamato_pm4.fw
+old mode 100644
+new mode 100755
+-- 
+1.8.1.6
+
